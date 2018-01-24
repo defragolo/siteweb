@@ -1,0 +1,96 @@
+
+/* css pour la barre de gauche */
+.barregauche {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.barregauche {
+    position: absolute;
+    left: 0px;
+    top: 100px;
+}
+.barregauche a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+
+.barregauche a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+.menuhaut {
+    background-color: #333;
+    overflow: hidden;
+}
+
+
+.menuhaut a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+.menuhaut a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/*position du menu haut */
+.menuhaut {
+    position: absolute;
+    left: 100px;
+    top:  0px;
+}
+
+.menuhaut a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*lecss de l'image */
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+/* le css des sponsors*/
+.barrepub {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.barrepub {
+    position: absolute;
+    left: 0px;
+    top: 100px;
+}
+
