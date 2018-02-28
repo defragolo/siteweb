@@ -1,12 +1,11 @@
-
+<html>
 <head>
-  <link rel="stylesheet" href="style1.css">
-   <meta charset="UTF-8">
-<title> organs4life </title>
 <link rel="stylesheet" href="style1.css">
+<meta charset="UTF-8">
+<title> organs4life </title>
 </head>
 
-
+<body>
 
 <!--barre fixe de navigation gauche-->
 <div class="barregauche">
@@ -18,19 +17,19 @@
   <a href="#">Prix décroissant</a>
 </div>
 <!--l'image du logo-->
- <img src="logo.img" alt="lelogodegeu" height="80" width="100">
+ <img src="logo.img" class="logo" alt="lelogodegeu" height="80" width="100">
 <!--barre fixe de  sponsors-->
 <div class="barrepub">
 
 </div>
 
 <!--le menu-->
- <div class="navbar">
+ <div class="milieuuu">
+ <div class="navbar"> 
+  <a  href="#">ACCEUIL</a>
   <a href="#">FICHE</a>
   <div class="dropdown">
-    <button class="dropbtn">CATEGORIES
-      <i class="fa fa-caret-down"></i>
-    </button>
+    <button class="dropbtn">CATEGORIES <i class="fa fa-caret-down"></i> </button>
     <div class="dropdown-content">
       <div class="header">
         <h2>catégories d'organes</h2>
@@ -47,7 +46,7 @@
           <a href="#">INTESTIN</a>
           <a href="#">ESTOMAC</a>
           <a href="#">PANCREAS</a>
-         <a href="#">COEUR</a>
+          <a href="#">COEUR</a>
           <a href="#">FOIE</a>
 
         </div>
@@ -60,18 +59,17 @@
 
       </div>
 
+
+</div>
     </div>
       <a href="#">CONTACT </a>
   </div>
 </div>
 
 
-<!-- se déconnecter -->
-<form class="deconnexion" action="/action_page.php" method="get">
-  <button type="submit" formmethod="post">se déconnecter</button>
-</form>
 
-<footer>
-<i style="font-size:24px" class="fa">&#xf1f9;</i>
+</body>
+<div class ="a">
   <p>organs4life-all right reserved </p>
-</footer>
+</div>
+</html>

@@ -1,3 +1,22 @@
+.a{
+	top : 82;
+}
+.milieuuu {
+  float:left;
+  position:relative;
+  right:-15%;
+  width: 1055px;
+}
+.logo{
+  float:left;
+  position:fixed;
+  width: 200px;
+  height:99px;
+left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
 
 
 /* css pour la barre de gauche */
@@ -69,13 +88,7 @@
     color: white;
 }
 
-/*lecss de l'image */
-img {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-}
+
 /* le css des sponsors*/
 .barrepub {
     height: 100%;

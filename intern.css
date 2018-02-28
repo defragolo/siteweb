@@ -1,0 +1,14 @@
+.intern {
+  width: 700px;
+  height: 450;
+	text-align: center;
+    border: 1px solid black;
+}
+
+.ana {
+  right:300px;
+  position:fixed;
+left: 230px;
+    top: 82px;
+    z-index: 120;
+}
